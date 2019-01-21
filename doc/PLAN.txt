@@ -1,0 +1,56 @@
+Project 1: Breakout Game
+Date Created: 1/13/2019
+Date Last Modified: 1/13/2019
+Author: Brian Jordan (bjj17)
+
+Plan
+Variants of Breakout:
+    When I was going through the different example videos of Breakout games that were provided and thinking back to
+versions I played growing up, the Vortex iPod Nano version stuck out to me the most.  This version differed from others
+by its seemingly 3 dimensional graphics.  The ball appears to travel into and out of the screen while being deflected by
+the paddle that moves in a circle rotation around the outside edge of the screen.  Another unique aspect of the game is that the
+bouncer travels through the blocks rather than reflecting off of them.  Overall, the quality of the graphics and the
+uniqueness of the game play made this version stand out to me.
+    The more basic version of the game that reflects the aspects of the original game play is the Arkanoid game.  This
+is the version I am looking to the most for inspiration and ideas.  The score and remaining lives of the user are clearly
+displayed on the screen.  The different levels also show examples of block configurations that could be used along with
+a wide variety of power ups and extra additions that could be implemented.
+
+Different Levels:
+    Originally, I was thinking of how I could produce the game in order to have an educational aspect to it.  I thought
+about making each level a letter in the alphabet to serve as a learning tool for children.  Because it would be difficult
+to make that many levels in one week, I decided to make the game Duke themed.  Still following the idea of blocks being
+arranged as letters, there will be 4 levels with each displaying a single letter in the order of D, U, K, and E.  I plan on
+having the top part of the screen filled with blocks that are white with the specific letter spelled out in blue blocks.
+With increasing levels, the ball speed will increase, then the paddle size will decrease, and finally the ball size
+will decrease.  An example of a level layout is given in the Level1Example.jpg.
+
+Block Types:
+    The white blocks that will be surrounding the letters will require one hit to destroy.  The blue blocks that make
+up the letter will require 2 hits to destroy.  There will be power up and power down blocks that are hidden as white or
+blue blocks.  When these are destroyed, the certain power up or down will be implemented.  The power up or down will no
+be in effect after a certain number of hits by the paddle or if another power up or down is achieved.  There will be
+less power up and more power downs as the level increases.
+
+Power Ups:
+    The first power up or down will be increasing or decreasing the length of the paddle which will make it easier or harder
+to deflect the bouncer back towards the block configuration.  The second will be increasing or decreasing the ball speed
+which will allow more time to position the paddle between hits.  The third power up will be destroying the immediate
+surrounding blocks of the one that produces the power up.
+
+Cheat Keys: (implemented)
+    I am planning on including a few cheat keys for helping to navigate levels of the game while debugging the program.
+The first will be using the letter 'L' on the keyboard to advance to the next level before clearing all the blocks.  Along
+the same lines, the numbers 1, 2, 3, and 4 will be used to navigate to the start of each respective level.  I also plan
+on using the 'R' key to reset the blocks to the starting configuration of the current level.  The letter 'A' will also be
+used to add an additional life to the current count.
+
+Extra Feature:
+    For my extra feature, I plan on making the paddle appear on the other side of the window when it is moved off of the
+screen.  This is a feature of a few breakout versions and the iPhone game "Doodle Jump."  I feel this will provide an
+interesting twist to the game and allow the user to quickly move the paddle to the other side of the window without having
+to toggle across the entire width of the window.  It will also increase the difficulty because the user will have to
+avoid toggling the paddle too far when close to the edge of the window.
+    I also intend to add effects when the ball collides with a block.  I don't have experience with this but will explore
+options for animations including a small flash or a burst.  The blue blocks will also change to white when they are first
+hit to indicate that only one more collision is necessary to eliminate it.
